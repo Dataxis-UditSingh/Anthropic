@@ -1,50 +1,17 @@
 [
   {
-    "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "68 kg",
-      "goal": "Marathon training with high carbohydrate intake for sustained energy during long-distance running",
-      "restrictions": "None"
-    },
-    "solution_criteria": [
-      "Meal plan includes 4-5 meals/snacks distributed throughout the day with emphasis on carbohydrates (55-65% of calories)",
-      "Plan specifies hydration strategy appropriate for endurance training",
-      "All meals are practical, compact, and realistic for a single day",
-      "Estimated daily caloric intake aligns with marathon training energy demands (approximately 2,800-3,200 calories)"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high carbohydrate intake and specific hydration needs to verify the meal plan accounts for sustained energy demands"
+    "task": "Write a Python function that extracts all S3 bucket names from a given AWS CLI response dictionary and returns them as a sorted list",
+    "format": "python",
+    "solution_criteria": "Function accepts a dict with 'Buckets' key containing list of bucket objects, extracts 'Name' from each, returns sorted list of strings"
   },
   {
-    "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "72 kg",
-      "goal": "Optimize energy and recovery for competition day with morning qualifier heats (6:00 AM start) and evening finals (7:00 PM start)",
-      "restrictions": "None"
-    },
-    "solution_criteria": [
-      "Meal timing aligns with competition schedule (pre-qualifier, between heats, pre-finals)",
-      "Foods selected are easily digestible and won't cause gastrointestinal distress during swimming",
-      "Carbohydrate and electrolyte intake supports sustained performance across two training blocks",
-      "Plan is compact and presented as a single day schedule"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a sport-specific athlete (competitive swimmer) with a competition day schedule (morning qualifier, evening finals) to verify meal timing and digestibility are optimized around training blocks"
+    "task": "Create an IAM policy JSON document that allows read-only access to a specific S3 bucket named 'company-data-bucket' including ListBucket and GetObject permissions",
+    "format": "json",
+    "solution_criteria": "Valid IAM policy with Version, Statement array, Effect Allow, correct S3 actions (s3:ListBucket, s3:GetObject), and properly formatted ARN resources for the specified bucket"
   },
   {
-    "prompt_inputs": {
-      "height": "180",
-      "weight": "85",
-      "goal": "Strength and power development for weightlifting competition",
-      "restrictions": "Vegetarian (no meat, poultry, or fish)"
-    },
-    "solution_criteria": [
-      "Meal plan covers all meals for one day and is concise",
-      "Macronutrients are balanced to support strength/power goals (adequate protein from vegetarian sources)",
-      "All meals respect vegetarian dietary restrictions",
-      "Meals are realistic and practical to prepare"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a strength/power athlete (weightlifter) with dietary restrictions (vegetarian protein sources) to ensure the meal plan balances macronutrients while respecting constraints"
+    "task": "Write a regex pattern that validates AWS Lambda function names, which must be 1-64 characters long and can only contain letters, numbers, hyphens, and underscores",
+    "format": "regex",
+    "solution_criteria": "Pattern matches valid Lambda names with allowed characters [a-zA-Z0-9_-], enforces length constraint of 1-64 characters, and anchors to full string"
   }
 ]

@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a profile card component for a user named Alex Rivera, a product designer.
+            - img [ref=e61]
+          - generic [ref=e80]:
+            - img [ref=e83]
+            - generic [ref=e87]:
+              - generic [ref=e90]: Creating /App.jsx
+              - separator [ref=e91]
+              - generic [ref=e92]:
+                - paragraph [ref=e93]: "Done! I've created a profile card component for Alex Rivera with:"
+                - list [ref=e94]:
+                  - listitem [ref=e95]: Gradient header background
+                  - listitem [ref=e96]: Avatar with initials
+                  - listitem [ref=e97]: Name and job title
+                  - listitem [ref=e98]: Bio section
+                  - listitem [ref=e99]: Stats (Projects, Followers, Following)
+                  - listitem [ref=e100]: Follow and Message action buttons
+                - paragraph [ref=e101]: All styled with Tailwind CSS.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e79]:
+        - generic [ref=f2e6]:
+          - generic [ref=f2e9]: AR
+          - heading "Alex Rivera" [level=2] [ref=f2e10]
+          - paragraph [ref=f2e11]: Product Designer
+          - paragraph [ref=f2e12]: Passionate about creating beautiful and intuitive user experiences.
+          - generic [ref=f2e13]:
+            - generic [ref=f2e14]:
+              - paragraph [ref=f2e15]: "12"
+              - paragraph [ref=f2e16]: Projects
+            - generic [ref=f2e17]:
+              - paragraph [ref=f2e18]: "48"
+              - paragraph [ref=f2e19]: Followers
+            - generic [ref=f2e20]:
+              - paragraph [ref=f2e21]: "156"
+              - paragraph [ref=f2e22]: Following
+          - generic [ref=f2e23]:
+            - button "Follow" [ref=f2e24] [cursor=pointer]
+            - button "Message" [ref=f2e25] [cursor=pointer]
+  - alert [ref=e48]

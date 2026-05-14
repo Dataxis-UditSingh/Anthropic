@@ -6,6 +6,9 @@ const prompt = "";
 
 for await (const message of query({
   prompt,
+  options:{
+    allowedTools:["Edit"],
+  },
 })) {
   console.log(JSON.stringify(message, null, 2));
 }

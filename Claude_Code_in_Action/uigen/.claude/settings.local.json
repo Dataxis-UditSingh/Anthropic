@@ -1,11 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "mcp__playwrite",
-      "mcp__playwright__browser_navigate",
-      "mcp__playwright__browser_snapshot",
-      "mcp__playwright__browser_click"
-    ],
-    "deny": []
+      "Bash(git rebase *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(git pull *)"
+    ]
   }
 }
